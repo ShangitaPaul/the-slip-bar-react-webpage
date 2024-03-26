@@ -1,2 +1,1 @@
-# the-slip-bar-react-webpage
-frontend only
+# theslipbar-react
