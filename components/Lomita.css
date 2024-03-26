@@ -1,0 +1,59 @@
+/* Import the Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap')
+
+/* Apply Montserrat font to elements */
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: 'Poitier', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 5px 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 510;
+  margin: 5px 0;
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.5rem;
+  margin: 5px 0;
+}
+
+/* Center-align text */
+.text-center {
+  text-align: center;
+}
+
+.custom-nav .custom-link {
+  color: #0d4d8d; /* Set link color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Add padding */
+}
+
+.custom-nav .custom-link:hover {
+  color: #333; /* Change color on hover */
+  background-color: transparent; /* Remove background color on hover */
+}
+
+/* Apply Philosopher font to h2 with regular weight */
+.philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Apply Philosopher font to h2 with bold weight */
+.philosopher-bold {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}

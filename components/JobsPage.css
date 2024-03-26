@@ -1,0 +1,87 @@
+/* Import the Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.jobs-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+
+}.locationFilter {
+  margin-bottom: 49px;
+}
+
+.job-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.page-title {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.filter-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.jobs-container {
+  display: grid;
+  gap: 20px;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.job-header-content {
+  flex: 1;
+}
+
+.job-description {
+  margin-top: 10px;
+}
+
+.toggle-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.job-details {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.instructions {
+  margin-top: 10px;
+}
+
+.instructions p {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 600px) {
+  .jobs-container {
+    grid-template-columns: 1fr;
+  }
+}

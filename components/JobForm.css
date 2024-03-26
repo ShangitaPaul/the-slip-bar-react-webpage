@@ -1,0 +1,43 @@
+.JobForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+h1 {
+  margin-top: 0;
+
+}
+
+#name,
+#resume,
+#email {
+  width: 30%; /* Adjust the width as needed */
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    justify-content: justify-content;
+
+
+}
+
+#submit {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.button-container .btn {
+  margin-bottom: 10px;
+  border-radius: 0;
+  align-items: center;
+}
+
+#submit:hover {
+  background-color: #45a049;
+}

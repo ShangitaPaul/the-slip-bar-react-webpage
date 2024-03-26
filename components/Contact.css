@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
+/* Apply custom styles to Contact component */
+#af-height-90 {
+    height: 90%;
+  }
+  
+  .af-max-width {
+    max-width: 960px; /* You can adjust this value as needed */
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  /* Style headings */
+  h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+    
+  
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style paragraphs */
+  p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  

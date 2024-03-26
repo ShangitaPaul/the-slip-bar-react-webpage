@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 20px;
+  font-size: larger;
+  margin-bottom: 5px;
+  
+
+}
+
+.button-container .btn {
+  margin-bottom: 15px;
+  margin: 10px 10px;
+  border-radius: 0;
+}
+
+.button-container .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.transparent-btn {
+  background-color: transparent !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  font-size: inherit;
+  line-height: normal;
+}
+
+.transparent-btn:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.carousel-container {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-caption {
+  font-size: 1.5rem;
+  width: 100%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-top: 1px;
+  transform: translate(-50%, -50%);
+
+}
+
+.carousel-caption h3 {
+  font-size: 3rem;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1px;
+  margin-top: -20px;
+  padding: none;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+/* Media query for screens with a maximum width of 576px */
+@media (max-width: 576px) {
+
+  .carousel-caption {
+    padding: 1px;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+  }
+
+  .carousel-caption h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: none;
+    text-align: center;
+    margin-bottom: none;
+    margin-top: none;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: none;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(4%);
+    width: 100%;
+    margin: 10px 10px;
+    font-size: larger;
+    height: auto;
+    margin-bottom: -20px;
+    margin-top: 5px
+
+
+  }
+
+  .button-container .btn {
+    height: auto;
+
+    margin: 10px 10px;
+    border-radius: 0;
+    margin-top: 1px;
+  }
+
+
+  
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+/* End of snippet from the-slip-bar-react-webpage/src/styles/Home.css */
+
